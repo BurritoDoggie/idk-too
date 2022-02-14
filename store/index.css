@@ -1,0 +1,100 @@
+body{
+  background-color: white;
+  
+
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+
+}
+
+h1 {
+    padding-right: 1150px;
+margin: 0px;
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Karla', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Syne Tactile', cursive;
+  font-size: 45px;
+
+}
+
+.line {
+  background-color: whitesmoke;
+  height: 4px;
+  color: whitesmoke;
+  font-size: 4px;
+}
+
+.overlay { 
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  }
+  
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+
+  .overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  }
+
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (maxheight: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+.ham {
+  padding-top: 30px;
+  width: 4225px;
+}
+
+.ham a:hover{
+  cursor: pointer;
+}
+
+.lorum1 {
+  padding-left: px;
+  font-family: 'Shizuru', cursive;
+  color: grey;
+  width: px;
+  height: px;
+}
